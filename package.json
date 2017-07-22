@@ -1,0 +1,19 @@
+{
+  "name": "a1notation",
+  "version": "1.0.0",
+  "main": "main.js",
+  "files": ["main.js"],
+  "repository": "https://github.com/takanopontaro/a1notation.git",
+  "author": "takanopontaro",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
