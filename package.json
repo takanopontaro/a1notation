@@ -1,20 +1,23 @@
 {
   "name": "a1notation",
-  "version": "1.0.4",
-  "main": "main.js",
-  "files": ["main.js", "main.d.ts"],
-  "types": "main.d.ts",
-  "repository": "https://github.com/takanopontaro/a1notation.git",
+  "version": "1.0.5",
   "author": "takanopontaro",
-  "license": "MIT",
   "devDependencies": {
     "ava": "^0.21.0",
-    "eslint": "^3.19.0",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.7.0"
+    "del-cli": "^1.1.0",
+    "fixpack": "^2.3.1",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2"
   },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "main": "lib/main.js",
+  "repository": "https://github.com/takanopontaro/a1notation.git",
   "scripts": {
+    "start": "fixpack && del-cli lib && tsc -w",
     "test": "ava"
-  }
+  },
+  "types": "lib/main.d.ts"
 }
