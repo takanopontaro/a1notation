@@ -9,4 +9,4 @@ declare function A1Notation(
   is1Based?: boolean
 ): { r: number; c: number }
 
-export default A1Notation;
+export = A1Notation;

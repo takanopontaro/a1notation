@@ -1,6 +1,6 @@
 {
   "name": "a1notation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "main.js",
   "files": ["main.js", "main.d.ts"],
   "types": "main.d.ts",
