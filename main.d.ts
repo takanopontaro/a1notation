@@ -1,7 +1,12 @@
 declare function A1Notation(
-  rowNum: number | string,
-  colNum?: number | boolean,
+  rowNum: number,
+  colNum: number,
   is1Based?: boolean
-): string | { r: number; c: number }
+): string
 
-export = A1Notation;
+declare function A1Notation(
+  address: string,
+  is1Based?: boolean
+): { r: number; c: number }
+
+export default A1Notation;
